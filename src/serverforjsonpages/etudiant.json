@@ -1,0 +1,21 @@
+{
+
+    "etudiant": [{
+            "id": 1,
+            "name": "grira",
+            "prename": "farouk",
+            "age": 12
+        },
+        {
+            "id": 2,
+            "name": "angular",
+            "prename": "framework",
+            "age": 12
+
+        }
+
+    ]
+
+
+
+}
