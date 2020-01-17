@@ -1,0 +1,17 @@
+dist: trusty
+sudo: false
+
+language: node_js
+node_js:
+  - '12.7.0'
+
+
+cache:
+  directories:
+    - ./node_modules
+
+install:
+  - npm install
+
+script:
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
