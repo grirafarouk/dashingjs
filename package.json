@@ -12,6 +12,7 @@
         "testingforprecommitlaisserseulementprecommit": "npm run lint",
         "test:cover": "rm -rf ./coverage && ng test --no-watch --code-coverage",
         "coveralls": "cat ./coverage/bestpractiseangularapp/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+
     },
     "private": true,
     "dependencies": {
@@ -32,6 +33,8 @@
         "@angular/cli": "~8.3.6",
         "@angular/compiler-cli": "~8.2.8",
         "@angular/language-service": "~8.2.8",
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
         "@types/jasmine": "~3.3.8",
         "@types/jasminewd2": "~2.0.3",
         "@types/node": "~8.9.4",
