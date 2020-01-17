@@ -9,7 +9,9 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "jsonserver": "json-server --port=5000 --watch src/serverforjsonpages/etudiant.json",
-        "ghghgh": "npm run lint"
+        "testingforprecommitlaisserseulementprecommit": "npm run lint",
+        "test:cover": "rm -rf ./coverage && ng test --no-watch --code-coverage",
+        "coveralls": "cat ./coverage/bestpractiseangularapp/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
     },
     "private": true,
     "dependencies": {
@@ -34,6 +36,7 @@
         "@types/jasminewd2": "~2.0.3",
         "@types/node": "~8.9.4",
         "codelyzer": "^5.0.0",
+        "coveralls": "^3.0.9",
         "husky": "^4.0.10",
         "jasmine-core": "~3.4.0",
         "jasmine-spec-reporter": "~4.2.1",
