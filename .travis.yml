@@ -14,7 +14,6 @@ install:
   - npm install
 
 script:
-
   - npm run test:cover -- --single-run --no-progress --browers=ChromeHeadlessNoSandbox
   - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 
