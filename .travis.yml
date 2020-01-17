@@ -15,4 +15,3 @@ install:
 
 script:
   - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
-  - ng e2e --protractor-config='protractor.ci.conf.js'
