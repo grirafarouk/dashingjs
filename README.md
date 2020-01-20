@@ -1,3 +1,4 @@
+
 [![Coverage Status](https://coveralls.io/repos/github/grirafarouk/dashingjs/badge.svg?branch=master)](https://coveralls.io/github/grirafarouk/dashingjs?branch=master)
 [![Build Status](https://travis-ci.org/grirafarouk/dashingjs.svg?branch=master)](https://travis-ci.org/grirafarouk/dashingjs)
 
