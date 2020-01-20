@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/grirafarouk/dashingjs/badge.svg?branch=master)](https://coveralls.io/github/grirafarouk/dashingjs?branch=master)
 [![Build Status](https://travis-ci.org/grirafarouk/dashingjs.svg?branch=master)](https://travis-ci.org/grirafarouk/dashingjs)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/181838b6cb45431ebc0030a6214d7b24)](https://www.codacy.com/manual/grirafarouk/dashingjs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=grirafarouk/dashingjs&amp;utm_campaign=Badge_Grade)
+[![Known Vulnerabilities](https://snyk.io/test/github/grirafarouk/dashingjs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/grirafarouk/dashingjs?targetFile=package.json)
 
 # Bestpractiseangularapp
 
