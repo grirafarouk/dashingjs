@@ -9,7 +9,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "jsonserver": "json-server --port=5000 --watch src/serverforjsonpages/etudiant.json",
-        "testingforprecommitlaisserseulementprecommit": "npm run lint",
+        "precomit": "npm run lint",
         "test:cover": "rm -rf ./coverage && ng test --no-watch --code-coverage",
         "coveralls": "cat ./coverage/bestpractiseangularapp/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
     },
