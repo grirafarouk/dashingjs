@@ -4,14 +4,15 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build",
+        "build": "ng build --prod",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
         "jsonserver": "json-server --port=5000 --watch src/serverforjsonpages/etudiant.json",
-        "testingforprecommitlaisserseulementprecommit": "npm run lint",
+        "testingforprecommitlaisserseulementprecommittestfors": "npm run lint",
         "test:cover": "rm -rf ./coverage && ng test --no-watch --code-coverage",
-        "coveralls": "cat ./coverage/bestpractiseangularapp/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+        "coveralls": "cat ./coverage/bestpractiseangularapp/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+        "build:gh-pages:demo1": "ng build  --outputPath=gh-pages/demo1 --baseHref=/dashingjs/demo1/"
     },
     "private": true,
     "dependencies": {
