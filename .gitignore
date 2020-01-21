@@ -44,3 +44,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+#ignorer le dossier gh-pages demo1
+
+/gh-pages/demo*
